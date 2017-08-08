@@ -1,10 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Барбершоп "Бородинский"</title>
 </head>
 <body>
-<p></p>
+  <header class="site-header">
+
+     <div class="conteiner">
+
+        <nav class="main-navigation">
+
+            <ul>
+                <li>
+                    <a href="#">Информация</a>
+                </li>
+                <li>
+                    <a href="#">Новости</a>
+                </li>
+                <li>
+                    <a href="#">Прайс-лист</a>
+                </li>
+                <li>
+                    <a href="#">Магазин</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div class="user-block">
+
+            <a class="login" href="#">Вход</a>
+
+        </div>
+     </div>
+  </header>
+
+  <main class="container">
+      <div class="index-logo">
+          <img src="img/logo.png" width="368" height="204" alt="Барбершоп 'Бородинский'">
+      </div>
+      <section class="feature">
+          <div class="feature-item">
+              <b class="feature-name">Быстро</b>
+              <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+          </div>
+          <div class="feature-item">
+              <b class="feature-name">Круто</b>
+              <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+                  МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+                  ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+              </p>
+          </div>
+          <div class="feature-item">
+              <b class="feature-name">Дорого</b>
+              <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+          </div>
+      </section>
+      <div class="index-content">
+          <div class="index-content-left">
+              <h2 class="index-content-title">Новости</h2>
+              <ul class="next-preview">
+                  <li>
+                      <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                      <time datetime="2016-01-11">11 января</time>
+                  </li>
+                  <li>
+                      <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                      <time datetime="2016-01-18">18 января</time>
+                  </li>
+              </ul>
+              <a class="btn" href="#">Все новости</a>
+          </div>
+          <div class="index-content-right">
+              <h2 class="index-content-title">Фотогалерея</h2>
+              <div class="gallery">
+                  <figure class="gallery-content">
+                      <img src="#" width="286" height="164" alt="">
+                  </figure>
+                  <button class="btn gallery-prev">Назад</button>
+                  <button class="btn gallery-next">Вперед</button>
+              </div>
+          </div>
+      </div>
+      <div class="index-content">
+          <div class="index-content-left">
+              <h2 class="index-content-title">Контактная информация</h2>
+              <p>
+                  Барбершоп "Бородинский"<br>
+              Адрес: г. Санк-Петербург, Б. Конюшенная, д. 19/8<br>
+              Телефон: +7 (812) 666-02-66</p>
+              <p>
+                  Время работы:<br>
+                  пн - пт: с 10:00 до 22:00<br>
+                  сб - вс: с 10:00 до 19:00
+              </p>
+              <a class="btn" href="#">Как проехать</a>
+              <a class="btn" href="#">Обратная связь</a>
+          </div>
+          <div class="index-content-right">
+              <h2 class="index-content-title">Записаться</h2>
+              <p>Укажите желаемую дату и время и мы с вами свяжемся для подстверждения брони</p>
+              <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+                  <input type="text" name="date" value="" placeholder="Дата">
+                  <input type="text" name="date" value="" placeholder="Время">
+                  <input type="text" name="date" value="" placeholder="Ваше имя">
+                  <input type="tel" name="date" value="" placeholder="Телефон">
+              </form>
+          </div>
+      </div>
+  </main>
 </body>
 </html>
